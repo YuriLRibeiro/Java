@@ -21,18 +21,18 @@ public class Program {
 
         p1.quantity = sc.nextInt();
 
-        System.out.println("Product data: " + p1.name + ", $" +p1.price + ", "+ p1.quantity + " Units, " + "Total: $" + p1.totalValueInStock());
+        System.out.println(p1);
 
         System.out.println("Enter the number of products to be added in stock: ");
         p1.addProducts(sc.nextInt());
 
-        System.out.println("Updated data: " + p1.name + ", $" +p1.price + ", "+ p1.quantity + " Units, " + "Total: $" + p1.totalValueInStock());
+        System.out.println("Updated data: " + p1);
 
         System.out.println("Enter the number of products to be removed from stock: ");
 
         p1.RemoveProduct(sc.nextInt());
 
-        System.out.println("Updated data: " + p1.name + ", $" +p1.price + ", "+ p1.quantity + " Units, " + "Total: $" + p1.totalValueInStock());
+        System.out.println("Updated data: " + p1);
 
         sc.close();
 
